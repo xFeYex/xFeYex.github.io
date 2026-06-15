@@ -1,0 +1,37 @@
+name: 打包并部署到GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # 指定触发的分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 添加写入权限
+    
+    steps:
+      - name: 访问存储库
+        uses: actions/checkout@v4     # 更新到v4 
+
+      - name: 安装nodejs
+        uses: actions/setup-node@v4   # 更新到v4
+        with:
+          node-version: '22'
+          cache: 'npm'  # 添加缓存
+
+      - name: 安装依赖
+        run: npm ci     # 使用 ci 而不是 install，更适合CI环境
+
+      - name: 打包项目
+        run: npm run build
+
+      - name: 部署到gh-pages分支
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          cname: www.rcn-pro.top
+          force_orphan: true  # 强制创建新的gh-pages分支
+
