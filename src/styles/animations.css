@@ -1,0 +1,78 @@
+/* ================== 全局动画 ================== */
+
+/* 页面切换：fade + zoom */
+.fade-zoom-enter-active,
+.fade-zoom-leave-active {
+  transition: all 0.4s var(--ease-out-expo);
+}
+.fade-zoom-enter-from {
+  opacity: 0;
+  transform: scale(0.96) translateY(10px);
+}
+.fade-zoom-leave-to {
+  opacity: 0;
+  transform: scale(1.04);
+}
+
+/* 简单的 fade */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s var(--ease-soft);
+}
+.fade-enter-from,
+.fade-leave-to { opacity: 0; }
+
+/* 滚动入场初始状态 */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* HUD 状态点脉冲 */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* 漂浮粒子 */
+@keyframes float-up {
+  0% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 0;
+  }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% {
+    transform: translateY(-20px) translateX(20px);
+    opacity: 0;
+  }
+}
+
+/* 闪烁光标 */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* 星空闪烁 */
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 0.7; }
+}
+
+/* 扫描线 */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* 主题切换时的全局过渡 */
+:root,
+[data-theme] {
+  transition: --bg-base 0.6s, --text-primary 0.6s;
+}

@@ -1,0 +1,112 @@
+// 中文 - 默认
+export default {
+  meta: {
+    name: '简体中文',
+    code: 'zh-CN',
+  },
+  nav: {
+    home: '首页',
+    blog: '文章',
+    moments: '动态',
+    projects: '项目',
+    archive: '归档',
+    about: '关于',
+    links: '友链',
+  },
+  status: {
+    online: 'SYSTEM ONLINE',
+    profile: '// EXPLORER PROFILE //',
+  },
+  hero: {
+    tag: '// EXPLORER PROFILE //',
+    titleCn: '星轨之间',
+    subtitle: '代码 · 音乐 · 星辰',
+    slogan: '愿此行，终达群星',
+    sloganEn: 'MAY THIS JOURNEY LEAD TO THE STARS',
+    typing: '欢迎来到我的星轨。在代码与星辰之间，我记录所思所学。技术、ACG、随想、还有日常的碎碎念，都在这里。',
+    scroll: 'SCROLL',
+  },
+  home: {
+    recentPosts: {
+      title: '最新文章',
+      subtitle: 'RECENT POSTS',
+      desc: '技术、随想、设计、ACG。慢慢写，慢慢想。',
+      viewAll: '查看全部',
+    },
+    featuredProjects: {
+      title: '项目精选',
+      subtitle: 'FEATURED PROJECTS',
+      desc: '做点东西比说什么都管用。',
+    },
+  },
+  profile: {
+    bio: '在星轨之间，写点代码、听点歌、偶尔碎碎念。',
+    more: '了解更多',
+    contact: '联系合作',
+  },
+  blog: {
+    title: '文章',
+    enTitle: '/ ARTICLES',
+    desc: '慢慢写，慢慢想。技术、设计、ACG、随笔——都收在这里。',
+    pinned: '置顶',
+    back: '← BACK TO LIST',
+    previous: '← PREVIOUS',
+    next: 'NEXT →',
+    words: 'WORDS',
+    minutes: 'MIN READ',
+    empty: '该标签下还没有文章',
+    viewAll: '查看全部',
+  },
+  moments: {
+    title: '动态',
+    subtitle: 'MOMENTS',
+    desc: '日常的碎碎念，都在这。',
+  },
+  archive: {
+    title: '归档',
+    subtitle: 'ARCHIVE',
+    desc: '按年月整理，每一篇都留个脚印。',
+  },
+  projects: {
+    title: '项目',
+    subtitle: 'PROJECTS',
+    desc: '做点东西比说什么都管用。',
+    viewProject: '查看项目 →',
+    externalLink: '访问外站 ↗',
+  },
+  about: {
+    title: '关于',
+    subtitle: 'ABOUT',
+  },
+  links: {
+    title: '友链',
+    subtitle: 'LINKS',
+    desc: '路过的好地方，都记在这里。',
+  },
+  player: {
+    title: '星轨歌单',
+    open: '打开音乐播放器',
+    close: '关闭播放器',
+    play: '播放',
+    pause: '暂停',
+    prev: '上一首',
+    next: '下一首',
+    tracklist: '// TRACKLIST',
+    tip: '* 真实音频需在 src/data/playlist.json 的 url 字段填入音频地址',
+  },
+  mobile: {
+    open: '打开导航',
+    close: '关闭导航',
+  },
+  notFound: {
+    title: '404',
+    desc: '这条星轨不存在，可能掉进了黑洞。',
+    back: '← BACK HOME',
+  },
+  common: {
+    home: '首页',
+    back: '返回',
+    confirm: '确定',
+    cancel: '取消',
+  },
+}

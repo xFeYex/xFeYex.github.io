@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "title": "BLOG PLAYLIST",
+  "titleCn": "星轨歌单",
+  "description": "代码与星辰之间的 BGM",
+  "loop": "all",
+  "tracks": [
+    {
+      "id": "starlight",
+      "title": "Stellar Memories",
+      "titleCn": "星间旅行",
+      "artist": "AI Generative",
+      "duration": 180,
+      "cover": "https://picsum.photos/seed/track1/120/120",
+      "url": ""
+    },
+    {
+      "id": "neon",
+      "title": "Neon Horizon",
+      "titleCn": "霓虹地平线",
+      "artist": "AI Generative",
+      "duration": 210,
+      "cover": "https://picsum.photos/seed/track2/120/120",
+      "url": ""
+    },
+    {
+      "id": "frost",
+      "title": "Frostbloom",
+      "titleCn": "霜花绽放",
+      "artist": "AI Generative",
+      "duration": 195,
+      "cover": "https://picsum.photos/seed/track3/120/120",
+      "url": ""
+    },
+    {
+      "id": "echo",
+      "title": "Echoes of Terra",
+      "titleCn": "大地回响",
+      "artist": "AI Generative",
+      "duration": 240,
+      "cover": "https://picsum.photos/seed/track4/120/120",
+      "url": ""
+    },
+    {
+      "id": "aurora",
+      "title": "Aurora Drift",
+      "titleCn": "极光漂流",
+      "artist": "AI Generative",
+      "duration": 220,
+      "cover": "https://picsum.photos/seed/track5/120/120",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+/* 明日方舟 - 深蓝绿 + 黄橙（战术面板/全息投影） */
+[data-theme="arknights"] {
+  /* 底色：深蓝绿 #1a3a3a 家族，比纯黑更亮 */
+  --bg-base: #142a2a;
+  --bg-deep: #0a1a1a;
+
+  /* 边框：黄橙（方舟标志色） */
+  --border-gold: #d4a017;
+  --border-gold-dim: rgba(212, 160, 23, 0.5);
+  --border-gold-faint: rgba(212, 160, 23, 0.18);
+  --border-color: rgba(212, 160, 23, 0.5);
+  --border-faint: rgba(212, 160, 23, 0.18);
+  --border-strong: #d4a017;
+
+  /* 文本：冷白 + 蓝绿灰 */
+  --text-primary: #e8f0f2;
+  --text-secondary: #98b0b6;
+  --text-dim: #607880;
+  --text-inverse: #0a1a1a;
+
+  /* 强调色：黄橙 + 战术青 + 病态绿 */
+  --accent-gold: #e8b54a;
+  --accent-blue: #5fb8c8;
+  --accent-purple: #7ec488;
+  /* 语义 accent 用黄橙（与边框、HUD 一致） */
+  --accent: #e8b54a;
+  --accent-soft: color-mix(in srgb, #e8b54a 20%, transparent);
+  --accent-faint: color-mix(in srgb, #e8b54a 8%, transparent);
+
+  /* 面板：蓝绿基底，玻璃感 */
+  --panel-bg: rgba(20, 38, 40, 0.72);
+  --card-bg: rgba(14, 28, 30, 0.6);
+  --bg-card: rgba(14, 28, 30, 0.55);
+  --bg-overlay: rgba(10, 22, 22, 0.45);
+  --bg-panel: rgba(20, 38, 40, 0.72);
+  --bg-panel-light: rgba(14, 28, 30, 0.6);
+
+  /* 阴影（暗色下更深阴影 + 黄橙发光） */
+  --shadow-glow: 0 0 24px rgba(232, 181, 74, 0.22);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-deep: 0 16px 48px rgba(0, 0, 0, 0.8);
+
+  /* Hero 渐变：深蓝绿 + 战术青光 + 黄橙高光 */
+  --hero-grad-1: rgba(232, 181, 74, 0.18);
+  --hero-grad-2: rgba(95, 184, 200, 0.14);
+  --hero-base: linear-gradient(160deg, #1a3a3a 0%, #142a2a 45%, #102525 100%);
+
+  /* 派生渐变（黄橙顶光 + 战术青底光） */
+  --grad-page: radial-gradient(ellipse at top, rgba(232, 181, 74, 0.1) 0%, transparent 55%),
+              radial-gradient(ellipse at bottom right, rgba(95, 184, 200, 0.1) 0%, transparent 55%),
+              radial-gradient(ellipse at bottom left, rgba(126, 196, 136, 0.08) 0%, transparent 55%),
+              var(--bg-deep);
+
+  --grad-hero: radial-gradient(ellipse at 70% 50%, rgba(232, 181, 74, 0.18) 0%, transparent 60%),
+               radial-gradient(ellipse at 20% 30%, rgba(95, 184, 200, 0.14) 0%, transparent 50%),
+               var(--hero-base);
+
+  /* 网格 / 噪点 */
+  --grid-color: rgba(232, 181, 74, 0.06);
+  --noise-opacity: 0.06;
+
+  /* 网格（跟随主题黄橙） */
+  --grid: linear-gradient(rgba(232, 181, 74, 0.06) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(232, 181, 74, 0.06) 1px, transparent 1px);
+
+  /* Cover：蓝绿深空 + 黄橙防御线 */
+  --cover-1: radial-gradient(ellipse at center, #1e4242 0%, #0a1a1a 100%);
+  --cover-2: radial-gradient(ellipse at center, #1a3a30 0%, #08120f 100%);
+  --cover-3: radial-gradient(ellipse at center, #3a2a1a 0%, #1a0f05 100%);
+}

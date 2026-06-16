@@ -1,0 +1,112 @@
+// English
+export default {
+  meta: {
+    name: 'English',
+    code: 'en-US',
+  },
+  nav: {
+    home: 'Home',
+    blog: 'Blog',
+    moments: 'Moments',
+    projects: 'Projects',
+    archive: 'Archive',
+    about: 'About',
+    links: 'Links',
+  },
+  status: {
+    online: 'SYSTEM ONLINE',
+    profile: '// EXPLORER PROFILE //',
+  },
+  hero: {
+    tag: '// EXPLORER PROFILE //',
+    titleCn: 'Into the Stellaron',
+    subtitle: 'CODE · MUSIC · COSMOS',
+    slogan: 'May This Journey Lead Us To The Stars',
+    sloganEn: 'MAY THIS JOURNEY LEAD TO THE STARS',
+    typing: 'Welcome aboard. Between code and stars, I write down what I learn, what I think, and what I love. Tech, ACG, music, life.',
+    scroll: 'SCROLL',
+  },
+  home: {
+    recentPosts: {
+      title: 'Recent Posts',
+      subtitle: 'RECENT POSTS',
+      desc: 'Tech, design, ACG, random thoughts. Slowly, but surely.',
+      viewAll: 'View All',
+    },
+    featuredProjects: {
+      title: 'Featured Projects',
+      subtitle: 'FEATURED PROJECTS',
+      desc: 'Building beats talking.',
+    },
+  },
+  profile: {
+    bio: 'Writing code, listening to music, occasionally rambling — between the stars.',
+    more: 'Learn More',
+    contact: 'Get in Touch',
+  },
+  blog: {
+    title: 'Blog',
+    enTitle: '/ ARTICLES',
+    desc: 'I write slowly, think slowly. Tech, design, ACG, essays — all collected here.',
+    pinned: 'PINNED',
+    back: '← BACK TO LIST',
+    previous: '← PREVIOUS',
+    next: 'NEXT →',
+    words: 'WORDS',
+    minutes: 'MIN READ',
+    empty: 'No posts under this tag yet.',
+    viewAll: 'View All',
+  },
+  moments: {
+    title: 'Moments',
+    subtitle: 'MOMENTS',
+    desc: 'Daily bits and bobs, all here.',
+  },
+  archive: {
+    title: 'Archive',
+    subtitle: 'ARCHIVE',
+    desc: 'Organized by year and month — every post leaves a footprint.',
+  },
+  projects: {
+    title: 'Projects',
+    subtitle: 'PROJECTS',
+    desc: 'Building beats talking.',
+    viewProject: 'View Project →',
+    externalLink: 'Visit ↗',
+  },
+  about: {
+    title: 'About',
+    subtitle: 'ABOUT',
+  },
+  links: {
+    title: 'Links',
+    subtitle: 'LINKS',
+    desc: 'Cool places I stumbled into.',
+  },
+  player: {
+    title: 'BLOG PLAYLIST',
+    open: 'Open Music Player',
+    close: 'Close Player',
+    play: 'Play',
+    pause: 'Pause',
+    prev: 'Previous',
+    next: 'Next',
+    tracklist: '// TRACKLIST',
+    tip: '* To play real audio, fill in the url field in src/data/playlist.json',
+  },
+  mobile: {
+    open: 'Open Navigation',
+    close: 'Close Navigation',
+  },
+  notFound: {
+    title: '404',
+    desc: "This star trail doesn't exist. Probably fell into a black hole.",
+    back: '← BACK HOME',
+  },
+  common: {
+    home: 'Home',
+    back: 'Back',
+    confirm: 'OK',
+    cancel: 'Cancel',
+  },
+}

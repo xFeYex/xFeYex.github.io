@@ -1,0 +1,69 @@
+/* 崩坏星穹铁道 - 经典版：深紫黑 + 银金（原始风格） */
+[data-theme="honkai-star-rail"] {
+  /* 底色：深紫黑 */
+  --bg-base: #0a0a14;
+  --bg-deep: #05050c;
+
+  /* 边框：经典金 + 微青 */
+  --border-gold: #d4af6b;
+  --border-gold-dim: rgba(212, 175, 107, 0.5);
+  --border-gold-faint: rgba(212, 175, 107, 0.18);
+  --border-color: rgba(212, 175, 107, 0.5);
+  --border-faint: rgba(212, 175, 107, 0.18);
+  --border-strong: #d4af6b;
+
+  /* 文本：暖白 + 米色 */
+  --text-primary: #f0e8d4;
+  --text-secondary: #b8a890;
+  --text-dim: #786a58;
+  --text-inverse: #0a0a14;
+
+  /* 强调色：星辉金 + 星河青 + 紫罗兰 */
+  --accent-gold: #d4af6b;
+  --accent-blue: #6bb8d4;
+  --accent-purple: #9b7ec8;
+  /* 语义 accent 用金色（与按钮、边框、HUD 角一致） */
+  --accent: #d4af6b;
+  --accent-soft: color-mix(in srgb, #d4af6b 20%, transparent);
+  --accent-faint: color-mix(in srgb, #d4af6b 8%, transparent);
+
+  /* 面板：深紫玻璃 */
+  --panel-bg: rgba(20, 18, 32, 0.7);
+  --card-bg: rgba(15, 14, 24, 0.6);
+  --bg-card: rgba(15, 14, 24, 0.55);
+  --bg-overlay: rgba(8, 8, 16, 0.4);
+  --bg-panel: rgba(20, 18, 32, 0.7);
+  --bg-panel-light: rgba(15, 14, 24, 0.6);
+
+  /* 阴影（暗色下更深的阴影 + 金色发光） */
+  --shadow-glow: 0 0 24px rgba(212, 175, 107, 0.25);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-deep: 0 16px 48px rgba(0, 0, 0, 0.8);
+
+  /* Hero 渐变：深紫 + 金光高光 */
+  --hero-grad-1: rgba(212, 175, 107, 0.2);
+  --hero-grad-2: rgba(155, 126, 200, 0.15);
+  --hero-base: linear-gradient(160deg, #1a1530 0%, #0a0a14 50%, #15102a 100%);
+
+  /* 派生渐变（金色顶光 + 紫罗兰底光） */
+  --grad-page: radial-gradient(ellipse at top, rgba(212, 175, 107, 0.12) 0%, transparent 55%),
+              radial-gradient(ellipse at bottom right, rgba(107, 184, 212, 0.1) 0%, transparent 55%),
+              radial-gradient(ellipse at bottom left, rgba(155, 126, 200, 0.08) 0%, transparent 55%),
+              var(--bg-deep);
+
+  --grad-hero: radial-gradient(ellipse at 70% 50%, rgba(212, 175, 107, 0.22) 0%, transparent 60%),
+               radial-gradient(ellipse at 20% 30%, rgba(155, 126, 200, 0.18) 0%, transparent 50%),
+               var(--hero-base);
+
+  /* Cover：紫黑深空 + 银河星云 */
+  --cover-1: radial-gradient(ellipse at center, #2a1f3a 0%, #0a0a14 100%);
+  --cover-2: radial-gradient(ellipse at center, #1a2540 0%, #05050c 100%);
+  --cover-3: radial-gradient(ellipse at center, #3a2818 0%, #0a0a14 100%);
+
+  --grid-color: rgba(212, 175, 107, 0.05);
+  --noise-opacity: 0.05;
+
+  /* 网格（跟随主题金色） */
+  --grid: linear-gradient(rgba(212, 175, 107, 0.06) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(212, 175, 107, 0.06) 1px, transparent 1px);
+}
